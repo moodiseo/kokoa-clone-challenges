@@ -2,13 +2,12 @@ body,
 html {
   background-color: tomato;
   display: flex;
+  height: 100%;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
-
 #middle-box {
-  background-color: #f5deb3;
+  background-color: antiquewhite;
   width: 250px;
   height: 250px;
   border: 2px solid black;
@@ -17,19 +16,22 @@ html {
   align-items: center;
   flex-direction: column;
 }
-
 .little-box {
   background-color: #008080;
 }
 
-.little-box:nth-child(odd) {
+.little-box:first-child {
   width: 50px;
   height: 50px;
-  border: 3px solid white;
+  border: 2px solid white;
 }
-
-.little-box:nth-child(even) {
+.little-box:nth-child(2) {
   width: 150px;
   height: 50px;
-  border: dashed white;
+  border: 2px dashed white;
+}
+.little-box:last-child {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
 }
