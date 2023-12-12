@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 html {
   height: 100%;
   width: 100%;
 }
+
 body {
   background-color: #f5f5f5;
   height: 100%;
@@ -12,10 +14,17 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+#header {
+  font-size: 40px;
+  align-items: start;
+}
+
 #title {
   align-items: center;
   font-size: 30px;
 }
+
 .colorChart {
   display: flex;
   align-items: center;
@@ -24,6 +33,7 @@ body {
   width: 80%;
   height: 80%;
 }
+
 .colorChart > div {
   position: relative;
   width: 120px;
@@ -31,36 +41,42 @@ body {
   border: 3px solid white;
   margin: 10px;
 }
+
 .colorChart > div:nth-child(1) {
   background-color: #ff6347;
 }
+
 .colorChart > div:nth-child(2) {
   background-color: #008080;
 }
+
 .colorChart > div:nth-child(3) {
   background-color: #deb887;
 }
+
 .colorChart > div:nth-child(4) {
   background-color: #d7bfd7;
 }
+
 .colorChart > div > div {
   background-color: white;
   position: absolute;
+  background-color: white;
+  height: 80px;
+  width: 120px;
   top: 15px;
-  left: -3px;
-  width: calc(100% + 4px);
-  height: 40%;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
+
 .colorChart > div > div > div:first-child {
-  margin-top: 10px;
-  margin-left: 5px;
   font-weight: bold;
   font-size: 20px;
-}
-.colorChart > div > div > div:last-child {
-  margin-top: 10px;
   margin-left: 5px;
+}
+
+.colorChart > div > div > div:last-child {
   font-size: 12px;
+  margin-left: 5px;
 }
