@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #00c6ad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: white;
+  width: 390px;
+  padding: 30px 30px 15px 30px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+header i {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  font-size: 28px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.main-song {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-song__cover {
+  width: 121px;
+  height: 121px;
+  background-color: #ffbd11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.1px solid black;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.main-song__cover i {
+  color: white;
+}
+
+.main-song__data {
+  width: 50%;
+}
+
+.main-song__title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.main-song__author {
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.btns__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-bottom-width: 7px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.btns__btn--big {
+  width: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.btns__btn--big span {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.song-list__song {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.song-list__cover1 {
+  width: 50px;
+  height: 50px;
+  background-color: #f85a2b;
+  border: 2.1px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.song-list__cover2 {
+  width: 50px;
+  height: 50px;
+  background-color: #fe89bb;
+  border: 2.1px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.song-list__cover3 {
+  width: 50px;
+  height: 50px;
+  background-color: #1947e4;
+  border: 2.1px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.song-list__cover4 {
+  width: 50px;
+  height: 50px;
+  background-color: #00c6ac;
+  border: 2.1px solid black;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.song-list__data h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.song-list__data h6 {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+}
